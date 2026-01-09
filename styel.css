@@ -1,0 +1,418 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+section{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(248, 237, 223); */
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 0px;
+    /* background: #86dbf0; */
+    padding: 55px 100px;
+}
+
+#nav-l{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:35px;
+}
+
+nav h1 i{
+    rotate: 45deg;
+    display:inline-block;
+}
+
+nav h4{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+nav button{
+    padding: 7px 9px ;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1.2px solid black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.center{
+    height: 67%;
+    width: 100%;
+    display: flex;
+    padding: 50px 100px;
+}
+
+#center-part1{
+    height: 100%;
+    width: 41%;
+    padding-top: 10px;
+
+
+}
+
+#center-part1 h1{
+    line-height: 1.1;
+    font-size: 65px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+
+#center-part1 p{
+    font-size: 20px;
+    width: 95%;
+    font-family: 'Ubuntu';
+    margin: 40px 0;
+}
+
+#center-part1 button{
+    background-color: #111e11;
+    border: none;
+    padding: 15px 19px ;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#center-part2{
+    height: 100%;
+    width: 59%;
+    padding-left: 140px;
+    
+}
+
+#center-part2 img {
+    position: absolute;
+    right: 4%;
+    height: 60%;
+    
+}
+
+.section-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+
+
+.section-bottom img{
+    height: 60px;
+
+}
+
+.section-bottom #fix{
+    height: 130px;
+}
+
+
+.section-second{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.Services{
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+
+}
+
+.Services h3{
+    background-color: #9ae975;
+    padding: 3px 5px;
+    font-weight: 500;
+    font-size: 38px;
+    border-radius: 5px;
+}
+
+.Services p{
+    width: 40%;
+    font-weight: 400;
+        font-family: 'Ubuntu';
+}
+
+
+
+.container{
+    height: 85%;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.tab{
+    flex-shrink: 0;
+    height: 250px;
+    width: 48%;
+    border-radius: 30px;
+    border: 3px solid black;
+    box-shadow:0px 15px 0 black ;
+    padding: 30px;
+    display: flex;
+
+}
+
+#tab-info{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+#tab-info h2{
+    width: 85%;
+    font-size:30px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    background-color: #9ae975;
+    padding: 2px 5px ;
+    border-radius:5px ;
+
+}
+
+#tab-info h4{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+#tab-info h4 i {
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+#tab-img{
+    height: 100%;
+    width: 70%;
+}
+
+#tab-img img{
+    height: 100%;
+    margin-left: 150px;
+    
+}
+
+.black{
+    background-color: #111;
+}
+
+.same #tab-info h2 {
+    background-color: #fff;
+
+}
+
+.same #tab-info h4{
+    color: #fff;
+    font-family: 'Ubuntu';
+}
+
+.same #tab-info h4 i{
+    background-color: #fff;
+    color: #111;
+}
+
+.section-three{
+    margin-top: 25rem;
+    height: 150%;
+    width: 100%;
+    padding: 0px 100px;
+
+}
+
+.section-three-part1{
+    background-color: aliceblue;
+    height: 260px;
+    display: flex;
+    padding: 20px 40px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.part1-A{
+    width: 50%;
+}
+
+.part1-A h2{
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    font-weight: 500;
+} 
+
+.part1-A p {
+    font-family: 'Ubuntu';
+    margin-top: 18px;
+    width: 65%;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.part1-A button{
+    font-family: 'Ubuntu';
+    margin: 2px;
+    border: none;
+    padding: 10px 19px ;
+    font-size: 22px ;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #111;
+    
+}
+
+.part1-B{
+    width: 50%;
+}
+.part1-B img{
+    height: 260px;
+    margin-left: 50%;
+
+}
+
+.study{
+    margin-top: 150px;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.study h3{
+    background-color: #9ff17a;
+    padding: 3px 5px;
+    font-weight: 500;
+    font-size: 38px;
+    border-radius: 5px;
+    font-family: 'Ubuntu';
+}
+
+.study p{
+    font-size: 18px;
+    width: 50%;
+    font-weight: 400;
+    font-family: 'Ubuntu';
+}
+
+.section-three-part2{
+    margin-top: 100px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    border-radius: 50px;
+    font-family: 'Ubuntu';
+    background:#222;
+    color: #ffffff;
+
+
+}
+
+#part2-p{
+        overflow-x: hidden;
+        font-family: 'Ubuntu';
+        font-weight: 200;
+}
+
+.part2-A{
+    width: 30%;
+    font-size: 22px;
+    overflow-x: hidden;
+    
+}
+
+.part2-B{
+        width: 30%;
+        font-size:22px;
+        font-weight: 200;
+        font-family: 'Ubuntu';
+        overflow: hidden;
+
+}
+
+.part2-C{
+        width: 30%;
+        font-size: 22px;
+        font-weight: 200;
+        font-family: 'Ubuntu';
+        overflow: hidden;
+}
+
+#btn-part2{
+    margin: 2px;
+    margin-top: 30px;
+    padding: 8px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 7px;
+    display: flex;
+    gap: 5px;
+}
+
+#btn-part2 i {
+
+    font-size: 20px;
+}
+
+#yline{
+    background-color: aliceblue;
+    height: 13.5vw;
+    width: 2px;
+}
+
+.end{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.end h1{
+    font-size: 60px;
+    overflow-y: hidden;
+}
